@@ -1,0 +1,11 @@
+{
+    "compilerOptions": {
+        "allowJs": true,
+        "types": [
+            "@jxa/global-type"
+        ]
+    },
+    "include": [
+        "**/*.js"
+    ]
+}
