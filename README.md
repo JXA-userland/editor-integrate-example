@@ -2,7 +2,7 @@
 
 ## Usage
 
-You can try to open this repository with * [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined")
+You can try to open this repository with [Visual Studio Code](https://code.visualstudio.com/ "Visual Studio Code - Code Editing. Redefined")
 
     git clone https://github.com/JXA-userland/editor-integrate-example
     cd editor-integrate-example
@@ -10,10 +10,16 @@ You can try to open this repository with * [Visual Studio Code](https://code.vis
 
 **limitation**
 
-Some types is `any`.
-It means that does not work auto complate for all object.
+Some obejct type is `any`.
+It means that auto-complete work specific object like `Application("System Events")`.
 
-## Reproduce steps
+For more details, see [@jxa/types](https://github.com/JXA-userland/JXA/tree/master/packages/@jxa/types) and [@jxa/sdef-to-dts](https://github.com/JXA-userland/JXA/tree/master/packages/@jxa/sdef-to-dts).
+
+### Run code
+
+    osascript -l JavaScript ./example-jxa.js
+
+## Setup steps manually
 
 1. Create `package.json`
   - `$ npm init --yes` 
@@ -35,5 +41,3 @@ It means that does not work auto complate for all object.
   ]
 }
 ```
-
-For more details, see [@jxa/global-type](https://github.com/JXA-userland/JXA/tree/master/packages/@jxa/global-type).
