@@ -6,6 +6,7 @@ You can try to open this repository with [Visual Studio Code](https://code.visua
 
     git clone https://github.com/JXA-userland/editor-integrate-example
     cd editor-integrate-example
+    npm install
     vscode .
 
 **limitation**
